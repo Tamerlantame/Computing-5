@@ -70,15 +70,15 @@ def app():
     with st.sidebar:
         st.header('Параметры')
 
-        text_expression = st.text_input('Выражение:', value='2 - 10 * sin(x)')
+        text_expression = st.text_input('Выражение:', value='2**x - 2 * cos(x)')
 
         left_column, right_column = st.columns(2)
 
         with left_column:
-            a = st.number_input('A:', value=-5)
+            a = st.number_input('A:', value=-8)
 
         with right_column:
-            b = st.number_input('B:', value=3)
+            b = st.number_input('B:', value=10)
 
         accuracy = st.number_input('Точность:', value=10 ** -6, format='%e')
 
