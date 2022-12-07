@@ -7,7 +7,7 @@ def show_sidebar():
     with st.sidebar:
         st.header('Параметры задачи')
 
-        text_expression = st.text_input('Выражение:', value='sin(x) - x^2 / 2')
+        text_expression = st.text_input('Выражение:', value='exp(x) - x')
         StateVar.TEXT_EXPRESSION.set(text_expression)
 
         left_column, right_column = st.columns(2)

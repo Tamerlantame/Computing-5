@@ -24,7 +24,7 @@ def main():
         """,
         unsafe_allow_html=True,
     )
-    st.markdown("<div style='text-align: right'>Вариант 1</div>", unsafe_allow_html=True)
+    st.markdown("<div style='text-align: right'>Вариант 3</div>", unsafe_allow_html=True)
 
     show_sidebar()
     table = show_init_stage()
