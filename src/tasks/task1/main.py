@@ -10,7 +10,7 @@ from src.common.model.line_segment import LineSegment
 
 LINE_SEGMENT = LineSegment(-5, 3)
 
-F = parse_expr('x - 10 * sin(x)')
+F = parse_expr('2**x - 2 * cos(x)')
 
 ACCURACY = 10 ** -6
 N = 1000

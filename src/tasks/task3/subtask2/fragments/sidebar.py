@@ -7,7 +7,7 @@ def show_sidebar():
     with st.sidebar:
         st.header('Параметры задачи')
 
-        text_expression = st.text_input('Выражение:', value='exp(3x)')
+        text_expression = st.text_input('Выражение:', value='exp(4.5x)')
         StateVar.TEXT_EXPRESSION.set(text_expression)
 
         left_boundary = st.number_input('Начало отрезка:', value=0)
